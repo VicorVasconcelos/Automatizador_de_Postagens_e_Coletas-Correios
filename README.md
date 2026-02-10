@@ -48,3 +48,5 @@ Resto é opcional. Se não tiver planilha, roda uma vez que ele cria um template
 ---
 
 Feito pra rodar em produção. Login é manual (mais seguro), resto é automático.
+
+Desenvolvido por Victor Vasconcelos com muito **☕**
