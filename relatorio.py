@@ -20,7 +20,6 @@ class ReportGenerator:
     
     def gerar_relatorio(self, resultados: Dict, tipo: str = 'api') -> Path:
         """
-        Gera relatório a partir dos resultados da API
         
         Args:
             resultados: Dict com 'sucesso', 'erro' e 'total'
@@ -246,5 +245,5 @@ if __name__ == "__main__":
     print("Relatórios gerados com sucesso!")
 
 
-# Alias para compatibilidade com diferentes módulos
+# compatibilidade com diferentes módulos
 RelatorioHandler = ReportGenerator
